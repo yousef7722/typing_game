@@ -37,7 +37,7 @@ btn.onclick = ()=>{
   }, 1000)
   play()
   let gen =setInterval(()=>{
-    if(input.value===word.innerHTML){
+    if(input.value.toLowerCase()===word.innerHTML){
       time.innerHTML=3
       console.log("nice")
       if(data.length >=1){
@@ -56,6 +56,7 @@ let replay =(text,g,timing)=>{
   clearInterval(g)
   clearInterval(timing)
   input.style.display="none";
+  input.value="";
   time.style.display="none";
   nextwords.style.display="none";
   word.style.display="none";
