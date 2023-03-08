@@ -38,10 +38,16 @@ $dark: #E3856B;
       margin-bottom: 50px;
     }
     .word{
-      margin-bottom: 50px;
+      margin-bottom: 10px;
       font-size: 30px;
       font-weight: bold;
       color: $dark;
+    }
+    .time{
+      margin-bottom: 40px;
+      display: none;
+      font-weight: bold;
+      color: red;
     }
     .btn{
       background-color: black;

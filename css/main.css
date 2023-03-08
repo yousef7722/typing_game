@@ -36,10 +36,16 @@
   margin-bottom: 50px;
 }
 .game .container .word {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
   color: #E3856B;
+}
+.game .container .time {
+  margin-bottom: 40px;
+  display: none;
+  font-weight: bold;
+  color: red;
 }
 .game .container .btn {
   background-color: black;
